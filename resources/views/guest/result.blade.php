@@ -42,7 +42,7 @@
                                         </div>
                                         <div class="row mt-5">
                                             <div class="col-12 d-flex justify-content-center">
-                                                <button type="button" class="btn btn-md rounded-0 blue-gradient text-capitalize" style="font-weight:500">
+                                                <button type="button" class="btn btn-md rounded-0 btn-deep-orange text-capitalize" style="font-weight:500">
                                                     Send To Email
                                                     <i class="fas fa-envelope animated fadeIn infinite ml-3"></i>
                                                 </button>

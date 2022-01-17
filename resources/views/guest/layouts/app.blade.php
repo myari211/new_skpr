@@ -10,12 +10,12 @@
             }
 
             .menu-active{
-                border-bottom:2px solid #4285F4;
+                border-bottom:2px solid #FF7043;
             }
             
             .menu-active > .nav-link{
                 font-weight:500;
-                color:#4175f4 !important;
+                color:#FF7043 !important;
             }
         </style>
     </head>
@@ -39,7 +39,7 @@
                         <a class="nav-link" href="{{ route('our_work') }}">Our Work</a>
                     </li>
                     <li class="nav-item">
-                        <button type="button" class="btn btn-md rounded-pill blue-gradient m-0 text-capitalize z-depth-0" style="border:1px solid #fff;" onclick="location.href='/self_assesment';">
+                        <button type="button" class="btn btn-md rounded-pill btn-deep-orange m-0 text-capitalize z-depth-0" style="border:1px solid #fff;" onclick="location.href='/self_assesment';">
                             Request Proposal
                             <i class="fas fa-arrow-right ml-3 animated fadeInLeft infinite slow"></i>
                         </button>
@@ -81,6 +81,10 @@
                     $('#header').addClass('p-4');
                     $('#header_mobile').removeClass('white');
                 }
+            });
+
+            $( document ).ready(function() {
+                new WOW().init();
             });
         </script>
     </body>

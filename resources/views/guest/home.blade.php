@@ -13,7 +13,7 @@
         url({{ asset('image/back.jpg') }});
     }
 </style>
-<div id="header_banner">
+{{-- <div id="header_banner">
     <div class="container h-100">
         <div class="d-flex justify-content-center align-items-center w-100 h-100">
             <div>
@@ -42,9 +42,35 @@
             </div>
         </div>
     </div>
+</div> --}}
+<div class="w-100 h-100 d-flex justify-content-center align-items-center">
+    <div class="row">
+        <div class="col-lg-6 d-flex align-items-center animated fadeInLeft">
+            <div>
+                <div class="row">
+                    <div class="col-lg-12 pl-5">
+                        <span style="font-size:40px; font-weight:600">Connected with thousands</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 pl-5">
+                        <span style="font-size:40px; font-weight:600">of potential Public Relation to</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 pl-5">
+                        <span id="typed" style="font-size:40px; font-weight:600" class="deep-orange-text"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 animated fadeinRight">
+            <img src="{{ asset('image/vector1.jpg') }}" style="width:100%">
+        </div>
+    </div>
 </div>
 <div class="container">
-    <div class="row mt-5">
+    {{-- <div class="row mt-5">
         <div class="col-lg-12 d-flex justify-content-center">
             <span style="font-size:30px; font-weight:500">Hi, We are SKPR ASIA</span>
         </div>
@@ -73,16 +99,16 @@
             </div>
             <div class="row mt-5">
                 <div class="col-lg-12">
-                    <button type="btn" class="btn btn-md blue-gradient rounded-pill text-capitalize m-0" data-toggle="collapse" data-target="#skpr" aria-expanded="false" aria-controls="skpr">
+                    <button type="btn" class="btn btn-md btn-deep-orange rounded-pill text-capitalize m-0" data-toggle="collapse" data-target="#skpr" aria-expanded="false" aria-controls="skpr">
                         Read More
                         <i class="fas fa-arrow-right animated fadeInLeft slow infinite ml-3"></i>
                     </button>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div class="row mt-5">
-        <div class="col-lg-12 d-flex justify-content-center">
+        <div class="col-lg-12 d-flex justify-content-center wow fadeIn">
             <span style="font-size:30px; font-weight:500">Our Services</span>
         </div>
     </div>
@@ -90,12 +116,12 @@
         <div class="col-lg-12">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <div class="row mt-3">
-                    <div class="col-lg-1 d-flex align-items-center">
-                        <button type="button" class="btn p-3 btn-outline-primary rounded-circle z-depth-0" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <div class="col-lg-1 d-flex align-items-center wow fadeInLeftBig" data-wow-delay="0.8s">
+                        <button type="button" class="btn p-3 btn-outline-deep-orange rounded-circle z-depth-0" href="#carouselExampleIndicators" role="button" data-slide="prev">
                             <i class="fas fa-chevron-left"></i>
                         </button>
                     </div>
-                    <div class="col-lg-10">
+                    <div class="col-lg-10 wow fadeInUp">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="carousel-inner">
@@ -123,7 +149,7 @@
                                                         </div>
                                                         <div class="row mt-auto">
                                                             <div class="col-lg-12 d-flex justify-content-center">
-                                                                <button type="button" class="btn btn-sm rounded-pill blue-gradient m-0">
+                                                                <button type="button" class="btn btn-sm rounded-pill btn-deep-orange m-0" onclick="location.href='/services';">
                                                                     Take A Look <i class="fas fa-arrow-right ml-3 animated fadeInLeft infinite"></i>
                                                                 </button>
                                                             </div>
@@ -155,7 +181,7 @@
                                                         </div>
                                                         <div class="row mt-auto">
                                                             <div class="col-lg-12 d-flex justify-content-center">
-                                                                <button type="button" class="btn btn-sm blue-gradient rounded-pill m-0">
+                                                                <button type="button" class="btn btn-sm btn-deep-orange rounded-pill m-0" onclick="location.href='/services';">
                                                                     Take A Look
                                                                     <i class="fas fa-arrow-right ml-3 animated fadeInLeft infinite"></i>
                                                                 </button>
@@ -195,7 +221,7 @@
                                                         </div>
                                                         <div class="row mt-auto">
                                                             <div class="col-lg-12 d-flex justify-content-center">
-                                                                <button type="button" class="btn btn-sm rounded-pill blue-gradient m-0">
+                                                                <button type="button" class="btn btn-sm rounded-pill btn-deep-orange m-0" onclick="location.href='/services';">
                                                                     Take A Look
                                                                     <i class="fas fa-arrow-right ml-3 animated fadeInLeft slow infinite"></i>
                                                                 </button>
@@ -226,7 +252,7 @@
                                                         </div>
                                                         <div class="row mt-auto">
                                                             <div class="col-lg-12 d-flex justify-content-center">
-                                                                <button type="button" class="btn btn-sm rounded-pill blue-gradient m-0">
+                                                                <button type="button" class="btn btn-sm rounded-pill btn-deep-orange m-0" onclick="location.href='/services';">
                                                                     Take A Look
                                                                     <i class="fas fa-arrow-right animated fadeInLeft infinite slow ml-3"></i>
                                                                 </button>
@@ -241,8 +267,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-1 d-flex align-items-center">
-                        <button type="button" class="btn btn-md p-3 rounded-circle btn-outline-primary z-depth-0" data-target="#carouselExampleIndicators" role="button" data-slide="next">
+                    <div class="col-lg-1 d-flex align-items-center wow fadeInRightBig" data-wow-delay="0.8s">
+                        <button type="button" class="btn btn-md p-3 rounded-circle btn-outline-deep-orange z-depth-0" data-target="#carouselExampleIndicators" role="button" data-slide="next">
                             <i class="fas fa-chevron-right"></i>
                         </button>
                     </div>
@@ -259,32 +285,32 @@
         </div>
     </div>
     <div class="row mt-5">
-        <div class="col-lg-12 d-flex justify-content-center">
+        <div class="col-lg-12 d-flex justify-content-center wow fadeInUp">
             <span style="font-size:30px; font-weight:500">Our Work</span>
         </div>
     </div>
     <div class="row mt-5 mb-5 d-flex justify-content-center">
-        <div class="col-lg-2 d-flex align-items-center">
+        <div class="col-lg-2 d-flex align-items-center wow fadeInUp">
             <img src="{{ asset('image/joox.png') }}" class="w-100">
         </div>
         <div class="col-lg-1">
         </div>
-        <div class="col-lg-2 d-flex align-items-center">
+        <div class="col-lg-2 d-flex align-items-center wow fadeInUp" data-wow-delay="0.3s">
             <img src="{{ asset('image/aia.jpg') }}" class="w-100">
         </div>
         <div class="col-lg-1">
         </div>
-        <div class="col-lg-2 d-flex align-items-center">
+        <div class="col-lg-2 d-flex align-items-center wow fadeInUp" data-wow-delay="0.6s">
             <img src="{{ asset('image/spain.png') }}" class="w-100">
         </div>
         <div class="col-lg-1">
         </div>
-        <div class="col-lg-2 d-flex align-items-center">
+        <div class="col-lg-2 d-flex align-items-center wow fadeInUp" data-wow-delay="0.9s">
             <img src="{{ asset('image/wechat.png') }}" class="w-100 rounded">
         </div>
     </div>
     <div class="row mt-4">
-        <div class="col-lg-12 d-flex justify-content-center">
+        <div class="col-lg-12 d-flex justify-content-center wow fadeInUp">
             <button type="button" class="btn btn-md rounded-0 btn-outline-black z-depth-0">
                 See Our Work
                 <i class="fas fa-arrow-right ml-3 animated fadeInLeft slow infinite"></i>

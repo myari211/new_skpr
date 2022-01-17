@@ -493,10 +493,10 @@
                                         <a id="prev">
                                             <i class="fas fa-arrow-left animated fadeInRight slow infinite mr-3"></i>Back
                                         </a>
-                                        <button type="button" class="btn btn-md blue-gradient text-white rounded-0 text-capitalize" id="next">
+                                        <button type="button" class="btn btn-md btn-deep-orange text-white rounded-0 text-capitalize" id="next">
                                             Next <i class="fas fa-arrow-right animated fadeInLeft infinite slow ml-3"></i>
                                         </button>
-                                        <button type="submit" class="btn btn-md blue-gradient text-white rounded-0 text-capitalize d-none" id="submit">
+                                        <button type="submit" class="btn btn-md btn-deep-orange text-white rounded-0 text-capitalize d-none" id="submit">
                                             Send <i class="fas fa-arrow-right animated fadeInLeft infinite slow ml-3"></i>
                                         </button>
                                     </div>

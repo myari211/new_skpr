@@ -2,34 +2,22 @@
 @section('content')
 <style type="text/css">
     #header_banner { 
-        width: 100%;
-        /* min-height: 800px; */
+        /* width: 100%;
         height:40%;
         background-size:cover;
         color:white;
         background-position:50% 50%;
         background-attachment: fixed;
         background-image:
-        url({{ asset('image/back.jpg') }});
+        url({{ asset('image/back.jpg') }}); */
     }
 </style>
-<div id="header_banner">
-    <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <div>
-            <div class="row">
-                <div class='col-lg-12'>
-                    <span style="font-size:30px; font-weight:600">Our Work</span>
-                </div>
-            </div>
-            {{-- <div class="row">
-                <div class="col-lg-12">
-                    
-                </div>
-            </div> --}}
+<div class="container">
+    <div class="row" style="margin-top:100px;">
+        <div class="col-lg-12 d-flex justify-content-center">
+            <span style="font-size:30px; font-weight:600">Our Work</span>
         </div>
     </div>
-</div>
-<div class="container">
     <div class="row mt-4">
         @foreach($project as $data)
             <div class="col-lg-4">

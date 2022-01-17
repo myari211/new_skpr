@@ -5,12 +5,6 @@
         width: 100%;
         /* min-height: 800px; */
         height:40%;
-        background-size:cover;
-        color:white;
-        background-position:50% 50%;
-        background-attachment: fixed;
-        background-image:
-        url({{ asset('image/back.jpg') }});
     }
 
     .bg-section {
@@ -21,12 +15,12 @@
     <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div>
             <div class='row'>
-                <div class="col-lg-12 d-flex justify-content-center">
+                <div class="col-lg-12 d-flex justify-content-center wow fadeInUp">
                     <span style="font-size:30px; font-weight:600">Our Services</span>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center">
+                <div class="col-lg-12 d-flex justify-content-center wow fadeInUp">
                     <span style="font-weight:500">What We Do ?</span>
                 </div>
             </div>
@@ -34,7 +28,7 @@
     </div>
 </div>
 <div class="container">
-    <div class="row mt-5">
+    <div class="row animated fadeInLeft">
         <div class="col-lg-6 d-flex align-items-center">
             <img src="{{ asset('image/vector1.jpg') }}" class="w-100">
         </div>
@@ -64,8 +58,8 @@
             </div>
             <div class="row mt-4">
                 <div class="col-lg-12">
-                    <button type="button" class="btn btn-md blue-gradient rounded-pill">
-                        Take It
+                    <button type="button" class="btn btn-md btn-deep-orange rounded-pill text-capitalize" onclick="location.href='/request_proposal';">
+                        Take Now
                         <i class="fas fa-arrow-right animated fadeInLeft infinite ml-3"></i>
                     </button>
                 </div>
@@ -77,7 +71,7 @@
             <hr />
         </div>
     </div>
-    <div class="row mt-4">
+    <div class="row mt-4 wow fadeInRight">
         <div class="col-lg-6">
             <div class="row">
                 <div class="col-lg-12">
@@ -106,8 +100,8 @@
             </div>
             <div class="row mt-4">
                 <div class="col-lg-12">
-                    <button type="button" class="btn btn-md rounded-pill blue-gradient m-0">
-                        Take It
+                    <button type="button" class="btn btn-md rounded-pill btn-deep-orange m-0 text-capitalize">
+                        Take Now
                         <i class="fas fa-arrow-right animated fadeInLeft infinite ml-3"></i>
                     </button>
                 </div>
@@ -122,7 +116,7 @@
             <hr />
         </div>
     </div>
-    <div class='row mt-4'>
+    <div class='row mt-4 wow fadeInLeft'>
         <div class="col-lg-6 d-flex justify-content-center align-items-center">
             <img src="{{ asset('image/vector3.jpg') }}" class="w-100">    
         </div>
@@ -149,8 +143,8 @@
             </div>
             <div class="row mt-4">
                 <div class="col-lg-12">
-                    <button type="button" class="btn btn-md rounded-pill blue-gradient">
-                        Take It
+                    <button type="button" class="btn btn-md rounded-pill btn-deep-orange text-capitalize">
+                        Take Now
                         <i class="fas fa-arrow-right ml-3 animated fadeInLeft infinite"></i>
                     </button>
                 </div>
@@ -162,7 +156,7 @@
             <hr />
         </div>
     </div>
-    <div class="row mt-4">
+    <div class="row mt-4 wow fadeInRight">
         <div class="col-lg-6">
             <div class="row">
                 <div class="col-lg-12">
@@ -187,8 +181,8 @@
             </div>
             <div class="row mt-4">
                 <div class="col-lg-12">
-                    <button type="button" class="btn btn-md rounded-pill blue-gradient">
-                        Take It
+                    <button type="button" class="btn btn-md rounded-pill btn-deep-orange text-capitalize">
+                        Take Now
                         <i class="fas fa-arrow-right ml-3 animated fadeInLeft infinite"></i>
                     </button>
                 </div>

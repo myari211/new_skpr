@@ -7,10 +7,10 @@
 <script type="text/javascript">
     var typed = new Typed('#typed', {
         strings: [
-            'CREATIVE AND INSPIRATION',
-            'PARTICIPATE IN YOUR CAMPAIGN',
-            'SUPPORT YOUR BUSINESS',
-            'FIND THE BEST CANDIDATES',
+            'Creative and Inspiration',
+            "Participate In Your Campaign",
+            "Support Your Business",
+            "Find The Bes Candidates",
         ],
         typeSpeed: 50,
         smartBackspace: true,

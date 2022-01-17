@@ -26,3 +26,7 @@ Route::get('/request_proposal', 'Guest\GuestController@proposal')->name('proposa
 Route::get('/assesment', 'Guest\GuestController@self_assesment_request')->name('request_assesment');
 Route::post('/assesment', 'Guest\GuestController@self_assesment_post')->name('post_assesment');
 Route::get('/assesment/result/{id}', 'Guest\GuestController@result')->name('result');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

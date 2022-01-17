@@ -247,7 +247,7 @@
                             <button type="button" class="btn btn-md z-depth-0 text-muted rounded-0 text-capitalize m-0 p-0" id="prev">
                                 <i class="fas fa-arrow-left mr-1"></i> Back
                             </button>
-                            <button type="button" class="btn btn-md blue-gradient text-white rounded-pill text-capitalize z-depth-0" id="next">
+                            <button type="button" class="btn btn-md btn-deep-orange text-white rounded-pill text-capitalize z-depth-0" id="next">
                                 Next <i class="fas fa-arrow-right ml-3"></i>
                             </button>
                         </div>
